@@ -1,22 +1,8 @@
 .bigContainer {
   display: flex;
-  flex-direction: column;
 }
 
-.containerOne {
-  display: flex;
-  flex-direction: row;
-}
-
-.boxOne {
-  min-width: 5px;
-  min-height: 5px;
-  border-color: black;
-  background-color: yellow;
-  border-style: solid;
-}
-
-.boxTwo {
+.box {
    width: 5px;
    height: 5px;
    border-color: black;
