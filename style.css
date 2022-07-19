@@ -25,7 +25,13 @@ body, html {
 }
 
 button {
-  border-radius: 10rem;
-  width: 20px;
-  height: 10px;
+  border-radius: 2rem;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.biggerContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
