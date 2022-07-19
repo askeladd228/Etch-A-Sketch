@@ -23,10 +23,10 @@ function createGrid() {
       const div = document.createElement('div');
       div.classList.add('box');
       div.addEventListener('mouseenter', () => {
-      div.classList.add('colorChange');
+        div.classList.add('colorChange');
       });
       div.addEventListener('mouseleave', () => {
-      div.classList.remove('colorChange');
+        div.classList.remove('colorChange');
       });
       gridContainer.appendChild(div); //creates 16 divs in all of the gridContainers
       bigContainer.appendChild(gridContainer); //stores 16 gridContainers in a big container
