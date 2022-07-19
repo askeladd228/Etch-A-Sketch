@@ -7,8 +7,7 @@ body, html {
 
 .bigContainer {
   display: flex;
-  justify-content: stretch;
-  align-items: stretch;
+  justify-content:stretch;
   height: 500px;
   width: 500px;
   border-style: dotted;
@@ -18,11 +17,11 @@ body, html {
 
 .box {
   flex: 1;
-  min-width: 10px;
-  min-height: 10px;
+  min-width: 1px;
+  min-height: 1px;
   border-color: black;
   background-color: yellow;
-  border-style: solid;  
+  border-style: solid; 
 } 
 
 .colorChange {
@@ -43,4 +42,10 @@ button {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+}
+
+.gridContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
